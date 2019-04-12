@@ -56,3 +56,5 @@ rm(xtrain,xtest,X,ytrain,ytest,Y,
 
 #final_data
 head(final_data)
+
+write.table(final_data, "FinalData.txt", row.name=FALSE)
